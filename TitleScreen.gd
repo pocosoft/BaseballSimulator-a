@@ -5,8 +5,8 @@ func _ready():
 	$StartButton.connect("pressed", Callable(self, "_on_StartButton_pressed"))
 
 func _on_StartButton_pressed():
-	#get_tree().change_scene("res://scenes/GameScene.tscn")
 	print("_on_StartButton_pressed")
+	get_tree().change_scene_to_file("res://scenes/GameScene.tscn")	
 
 func _on_OptionsButton_pressed():
 	# オプションメニューを表示するロジック
