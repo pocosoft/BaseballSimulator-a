@@ -1,4 +1,7 @@
-[gd_scene format=3 uid="uid://d4ggg8qsjjp3"]
+[gd_scene load_steps=3 format=3 uid="uid://d4ggg8qsjjp3"]
+
+[ext_resource type="Texture2D" uid="uid://dl11us3dki3cu" path="res://assets/title_screen.webp" id="1_7a27b"]
+[ext_resource type="Script" path="res://TitleScreen.gd" id="1_fewsm"]
 
 [node name="TitleScreen" type="Node2D"]
 
@@ -7,3 +10,14 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+script = ExtResource("1_fewsm")
+
+[node name="Sprite2D" type="Sprite2D" parent="Control"]
+texture = ExtResource("1_7a27b")
+
+[node name="StartButton" type="Button" parent="Control"]
+offset_left = -128.0
+offset_top = 126.0
+offset_right = 108.0
+offset_bottom = 184.0
+text = "Start Game"
