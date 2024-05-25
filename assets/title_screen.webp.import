@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqc13fagp3ser"
-path="res://.godot/imported/fielder@2x.png-901385a4ec880054f0d35767c648fd01.ctex"
+uid="uid://dl11us3dki3cu"
+path="res://.godot/imported/title_screen.webp-8dc0042f62ed310229d4266526fc5a39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://fielder@2x.png"
-dest_files=["res://.godot/imported/fielder@2x.png-901385a4ec880054f0d35767c648fd01.ctex"]
+source_file="res://assets/title_screen.webp"
+dest_files=["res://.godot/imported/title_screen.webp-8dc0042f62ed310229d4266526fc5a39.ctex"]
 
 [params]
 
